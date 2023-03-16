@@ -1,0 +1,28 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js dev/networkNode.js",
+    "node0": "nodemon --watch dev -e js dev/networkNode.js 3000 http://localhost:3000",
+    "node1": "nodemon --watch dev -e js dev/networkNode.js 3001 http://localhost:3001",
+    "node2": "nodemon --watch dev -e js dev/networkNode.js 3002 http://localhost:3002",
+    "node3": "nodemon --watch dev -e js dev/networkNode.js 3003 http://localhost:3003",
+    "node4": "nodemon --watch dev -e js dev/networkNode.js 3004 http://localhost:3004",
+    "node5": "nodemon --watch dev -e js dev/networkNode.js 3005 http://localhost:3005"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "got": "^12.6.0",
+    "nodemon": "^2.0.21",
+    "request-promise": "^4.2.6",
+    "sha256": "^0.2.0",
+    "uuid": "^9.0.0"
+  }
+}
